@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<img src="" alt="">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
+        
+    <!-- ESTILOS PARA ESTA PÁGINA -->
+    <!-- Nesse caso, este estilo é apenas para inserir imagens -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- JAVASCRIPT E JQUERY -->
+   
+</head>
+		<!-- Exemplo de menu responsivo usando o Bootstrap          -->
+		<!-- Desenvolvido por Jefferson Jamess do site falafera.com -->
+		<!-- Dúvidas? Entre no canal: http://youtube.com/falafera   -->
+<body>
+<!-- INÍCIO DO MENU SUPERIOR -->
+    
+	<nav class=" navbar navbar-inverse navbar-fixed-top preto">
+    <h2 id="nome">AURICELIO</h2>   
+    
+		<div class="container preto">
+			<div class="navbar-header">
+        <img id="auri" src="./imagens/auri.png" alt="">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu" style="background-color: white;">
+					<i class="material-icons">menu</i>
+				</button>
+			</div>
+			
+
+			<nav id="links-menu" class="collapse  navbar-collapse preto ">
+				<ul class=" nav navbar-nav navbar-right" >
+        
+					<li><a id="centro" href="#">Home</a></li>
+					<li><a id="centro" href="#">projetos</a></li>
+					<li><a id="centro" href="#">redes sociais</a></li>
+					<li><a id="centro" href="#">certificados</a></li>
+					<li><a id="centro" href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</nav>
+<!-- FIM DO MENU SUPERIOR -->
+       
+     <section class="container">
+      <div>
+         
+        <section class="slide-ft">
+         
+          <div  class="swiper-container ">
+            
+              <div id="ft" class="swiper-wrapper">
+                <div id="ft" class="swiper-slide " style="background-image:url(./ft/IMG_20200210_185022.jpg)"><h1 class="txt"></h1></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_201814.jpg)"><h1 class="txt"></h1></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_210415.jpg)"><h1 class="txt"></h1></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_202926.jpg)"><h1 class="txt"></h1></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_210416.jpg)"><h1 class="txt"></h1></div>
+                <div id="ft" class="swiper-slide " style="background-image:url(./ft/IMG_20200218_210423.jpg)"></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_210424.jpg)"></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_210511.jpg)"></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_212518.jpg)"></div>
+                <div id="ft" class="swiper-slide" style="background-image:url(./ft/IMG_20200218_212520.jpg)"></div>
+
+              </div>
+              <!-- Add Pagination -->
+              <div id="ft" class="swiper-pagination"></div>
+            </div>
+      </section>
+      <div class="space">
+        <h1 class=" text-center " id="h1">LEMBRAÇAS</h1>
+      </div>
+       </div>
+      <div class="space ">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quod corrupti ipsa dicta omnis neque magnam ex, eligendi, 
+            consectetur dolorem aliquid? Eaque iusto placeat accusamus ratione cumque laborum nam sapiente.</h2>
+      </div>
+      
+
+      <footer class="">
+            <ul class="ul">
+                <li class="li">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span class="fa fa-instagram" aria-hidden="true"></span>
+                </li>
+           
+           
+              <li class="li">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa fa-whatsapp" aria-hidden="true"></span>
+                 
+              </li>
+        
+       
+            <li class="li">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa fa-youtube" aria-hidden="true"></span>
+            </li>
+     
+        
+          <li class="li">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fa fa-facebook" aria-hidden="true"></span>
+                
+          </li>
+        
+            <li class="li">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="fa fa-telegram" aria-hidden="true"></a></span>
+                
+                
+            </li>
+      </ul>
+      </footer>
+     </section>
+
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
