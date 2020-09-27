@@ -1,3 +1,5 @@
 # carrouselsimples
- link: https://github.com/auriceliords/carrouselsimples.git
+
+ link: https://auriceliords.github.io/carrouselsimples/
+ 
 # podem usar sem problemas !!!
